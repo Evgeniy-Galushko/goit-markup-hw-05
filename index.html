@@ -328,6 +328,48 @@
         </div>
     </section>
     </main>
+    <div class="modal-overlay">
+        <div class="modal">
+            <button class="modal-overlay-button">
+                <svg class="icon-overlay-button" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+            <h2 class="modal-title">Leave your contacts and we will call you back</h2>
+            <form class="feedback">
+                <label class="feedback-label">
+                    Name
+                    <input class="input-modal" type="name" name="user_name" placeholder="">
+                    <svg class="icon-input-modal" width="18" height="24">
+                        <use href="./images/icons.svg#icon-person"></use>
+                    </svg>
+                </label>
+                <label class="feedback-label">
+                    Phone
+                    <input class="input-modal" type="tel" name="contact_tel" placeholder="">
+                    <svg class="icon-input-modal" width="18" height="24">
+                        <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>
+                </label>
+                <label class="feedback-label">
+                    Email
+                    <input class="input-modal" type="email" name="user_imail" placeholder="">
+                    <svg class="icon-input-modal" width="18" height="24">
+                        <use href="./images/icons.svg#icon-email"></use>
+                    </svg>
+                </label>
+                <label class="feedback-label">
+                    Comment
+                    <textarea class="feedback-label-textarea" name="comment" rows="" placeholder="Text input"></textarea>
+                </label>
+                <label class="feedback-label-checkbox">
+                    <input type="checkbox" name="user_agreement" value="agreement">
+                    I accept the terms and conditions of the <a href="">Privacy Policy</a>
+                </label>
+                <button class="modal-overlay-send" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
     <footer class="footers">
         <div class="container container-footer">
             <div class="footers-logo">
@@ -371,34 +413,18 @@
             </div>
             <div class="footer-email">
                 <form class="footer-email-form" name="your-email" autocomplete="off">
-                    <label class="footer-email-subscribe" for="username">
+                    <label class="footer-email-subscribe" for="subscribe">
                         Subscribe
-                        <input class="footer-email-mail" type="text" name="username" placeholder="E-mail">
+                        <input class="footer-email-mail" type="email" name="subscribe" placeholder="E-mail">
                     </label>
                 </form>
                 <button class="footer-button">
                     Subscribe
-                    <svg class="footer-button-icon" width="24" height="24" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_d_297080_8171)">
-                            <path
-                                d="M28 2L4 13.25L11.6699 15.6172L23.5 6.375L14.5017 16.4913L14.509 16.4936L14.5 16.4913V22L18.8013 17.8183L24.2501 19.5L28 2Z"
-                                fill="white" />
-                        </g>
-                        <defs>
-                            <filter id="filter0_d_297080_8171" x="0" y="0" width="32" height="32" filterUnits="userSpaceOnUse"
-                                color-interpolation-filters="sRGB">
-                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                                    result="hardAlpha" />
-                                <feOffset dy="4" />
-                                <feGaussianBlur stdDeviation="2" />
-                                <feComposite in2="hardAlpha" operator="out" />
-                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_297080_8171" />
-                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_297080_8171" result="shape" />
-                            </filter>
-                        </defs>
-                    </svg>
+                    <a class="link-footer-button" href="https://ua.linkedin.com/" target="_blank">
+                        <svg class="footer-button-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-telegram"></use>
+                        </svg>
+                    </a>
                 </button>
             </div>
         </div>
