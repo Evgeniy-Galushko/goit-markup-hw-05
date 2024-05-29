@@ -716,15 +716,21 @@ max-width: 208px;
 
 .footer-email{
     display: flex;
-    gap: 24px;
     max-width: 453px;
     margin-left: 80px;
-}
+    gap: 24px;
+} 
+
+/* .footer-email-div{
+    display: flex;
+    flex-direction: column;
+} */
 
 .footer-email-form{
     display: flex;
     flex-direction: column;
-}
+    gap: 24px;
+} 
 
 .footer-email .footer-email-p{
     font-family: "Roboto", sans-serif;
@@ -748,7 +754,7 @@ max-width: 208px;
         color: #fff;
     border-radius: 4px;
     cursor: pointer;
-    width: 169px;
+    width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     display: flex;
@@ -765,8 +771,11 @@ max-width: 208px;
 }
 
 .footer-email .footer-email-input{
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
     border: 1px solid #fff;
-    background-color: #2e2f42;
+    background-color: transparent;
     border-radius: 4px;
     width: 264px;
     height: 40px;
