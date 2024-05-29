@@ -726,6 +726,18 @@ max-width: 208px;
     flex-direction: column;
 }
 
+.footer-email .footer-email-p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    width: 75px;
+    height: 24px;
+    margin-bottom: 16px;
+}
+
 .footer-email .footer-button{
         font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -760,7 +772,6 @@ max-width: 208px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     padding: 8px 0px 8px 16px;
-    margin-top: 16px;
     color: #fff;
     transition-property: border-color;
     transition-duration: 250ms;
