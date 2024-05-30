@@ -744,8 +744,9 @@ input::placeholder {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.feedbac .input-modal:focus, .feedback .input-modal:hover{
-    border-color: #4D5AE5;;
+.feedback .input-modal:focus{
+    border-color: #4D5AE5;
+
 }
 
 .feedback .icon-input-modal{
@@ -756,8 +757,8 @@ input::placeholder {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.feedback .icon-input-modal:hover, .feedback .icon-input-modal:focus{
-    fill: #4D5AE5;
+.feedback .icon-input-modal:focus{
+    fill:#4D5AE5;
 }
 
 .feedback .feedback-label-comment{
@@ -782,7 +783,7 @@ input::placeholder {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.feedback .feedback-label-textarea:focus, .feedback .feedback-label-textarea:hover{
+.feedback .feedback-label-textarea:focus{
     border-color: #4D5AE5;
 }
 
@@ -801,7 +802,7 @@ input::placeholder {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
@@ -818,7 +819,7 @@ input::placeholder {
     fill: transparent;
 }
 
-.label-checkbox-two-span input:checked {
+.feedback .label-checkbox-two .label-checkbox-two-span:checked {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
