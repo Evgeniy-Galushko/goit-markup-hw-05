@@ -712,7 +712,7 @@ input::placeholder {
     width: 100%;
 }
 
-.modal .feedback-label{
+.feedback .feedback-label{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -732,7 +732,7 @@ input::placeholder {
 
 }
 
-.feedback-label .input-modal{
+.feedback .input-modal{
     border: 1px solid rgba(46, 47, 66, 0.4);;
     border-radius: 4px;
     outline: 0;
@@ -744,12 +744,12 @@ input::placeholder {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.feedback-label .input-modal:focus,
-.feedback-label .input-modal:hover{
+.feedbac .input-modal:focus,
+.feedback .input-modal:hover{
     border-color: #4d5ae5;
 }
 
-.feedback-label .icon-input-modal{
+.feedback .icon-input-modal{
     position: absolute;
     top: 50%;
     left: 16px;
@@ -757,8 +757,8 @@ input::placeholder {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.feedback-label .icon-input-modal:hover,
-.feedback-label .icon-input-modal:focus{
+.feedback .icon-input-modal:hover,
+.feedback .icon-input-modal:focus{
     fill: #4d5ae5;
 }
 
@@ -784,8 +784,8 @@ input::placeholder {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.feedback-label .feedback-label-textarea:focus
-.feedback-label .feedback-label-textarea:hover{
+.feedback .feedback-label-textarea:focus
+.feedback .feedback-label-textarea:hover{
     border-color: #4d5ae5;
 }
 
