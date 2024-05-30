@@ -816,13 +816,14 @@ input::placeholder {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #404bbf;
-    fill: #F4F4FD;
-    /* fill: transparent; */
+    
+    fill: transparent;
 }
 
 .feedback input[type="checkbox"]:checked{
-    border: none;
+fill: #F4F4FD;
+background-color: #404bbf;
+border: none;
 }
 
 
