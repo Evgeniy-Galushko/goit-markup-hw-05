@@ -820,7 +820,7 @@ input::placeholder {
     fill: transparent;
 }
 
-input:checked+label>span{
+.visually-hidden:checked+.label-checkbox-two>.label-checkbox-two-span{
     background: #404bbf;
     fill: #F4F4FD;
     border: none;
